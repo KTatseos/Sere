@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sere Calculator</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <h3>Appetizers</h3>
+        Colors: <input type="text" id="numColors" /><br><br>
+        Spots: <input type="text" id="numSpots" /><br><br>
+        Stripes: <input type="text" id="numStripes" /><br><br>
+
+        <h3>Main Dishes</h3>
+        <label for="partialMini">Mini Partial</label>
+        <input type="checkbox" id="partialMini" name="partialMini"><br><br>
+
+        <label for="partialFull">Full Partial</label>
+        <input type="checkbox" id="partialFull" name="partialFull"><br><br>
+
+        <label for="fullPlanti">Full Planti Suit</label>
+        <input type="checkbox" id="fullPlanti" name="fullPlanti"><br><br>
+
+        <label for="fullDigi">Full Digi Suit</label>
+        <input type="checkbox" id="fullDigi" name="fullDigi"><br><br>
+
+        <h3>Ala Carte</h3>
+        <label for="head">Head</label>
+        <input type="checkbox" id="head" name="head"><br><br>
+
+        <label for="bodyPlanti">Planti Bodysuit</label>
+        <input type="checkbox" id="bodyPlanti" name="bodyPlanti"><br><br>
+
+        <label for="bodyDigi">Digi Bodysuit</label>
+        <input type="checkbox" id="bodyDigi" name="bodyDigi"><br><br>
+
+        <label for="hPaws">Hand Paws</label>
+        <input type="checkbox" id="hPaws" name="hPaws">
+
+        <label for="hPawsPuffy">Puffy?</label>
+        <input type="checkbox" id="hPawsPuffy" name="hPawsPuffy"><br><br>
+
+        <label for="armSleeves">Arm Sleeves</label>
+        <input type="checkbox" id="armSleeves" name="armSleeves"><br><br>
+
+        <label for="fPaws">Feet Paws</label>
+        <input type="checkbox" id="fPaws" name="fPaws"><br><br>
+
+        <lable for="tailBasic">Basic Tail</lable>
+        <input type="checkbox" id="tailBasic" name="tailBasic"><br><br>
+
+        <lable for="tailLong">Long Tail</lable>
+        <input type="checkbox" id="tailLong" name="tailLong"><br><br>
+
+        <lable for="tailExtraLong">Extra Long Tail</lable>
+        <input type="checkbox" id="tailExtraLong" name="tailExtraLong"><br><br>
+
+        <h3>Sides</h3>
+        <label for="eyelids">Velcro Eyelids</label>
+        <input type="checkbox" id="eyelids" name="eyelids"><br><br>
+
+        <label for="tongue">Removable Tongue</label>
+        <input type="checkbox" id="tongue" name="tongue"><br><br>
+
+        <label for="nose">Pickable Nose</label>
+        <input type="checkbox" id="nose" name="nose"><br><br>
+
+        <label for="neck">Textured Neck</label>
+        <input type="checkbox" id="neck" name="neck"><br><br>
+
+    </form>
+    <input type="button" onclick="add()" Value="My bill, please" />
+    
+    <span id="result"></span>      
+</body>
+</html>
